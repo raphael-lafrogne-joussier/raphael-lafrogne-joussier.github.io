@@ -2,29 +2,25 @@
 title = "Homepage"
 +++
 
-## Hello!
-
-I am the Nathaniel Ropes Professor of Political Economy at Harvard and founder of the [Social Economics Lab](http://socialeconomicslab.org/).
-
-I study the **taxation** of firms and individuals, as well as **how people understand, perceive, and form their attitudes** towards public policies. My work has centered around the **long-lasting effects** of tax policy -- on innovation, education, and wealth. Recently, I have studied how R&D policies can be improved to **foster innovation**, how income and corporate taxes have shaped innovation over the 20th century, and how student loans can be structured to improve access to education. I have also explored people’s attitudes towards taxation, health care, immigration policies, environmental policies, and social mobility using **large-scale Social Economics Surveys and Experiments**.
 
 
-I received my Ph.D. in Economics from MIT in 2014 and was a junior fellow at the Harvard Society of Fellows 2014-2016 before joining the Harvard Department of Economics in July 2016. I am currently co-editor of the Quarterly Journal of Economics. 
+I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/). I also am a macroeconomist at the French National Institute for Statistics and Economic Studies ([INSEE](https://www.insee.fr/)).
 
-Here is my [Full CV](https://scholar.harvard.edu/files/stantcheva/files/cv_sstantcheva_jan2022.pdf), and my [Research Summary](https://scholar.harvard.edu/files/stantcheva/files/econ_dynamic_2104.pdf). To learn more about people’s understanding, perceptions and views of public policies, visit the [Social Economics Lab website](http://socialeconomicslab.org/). To learn more about my research in “Taxation and Innovation” here is a short [focus piece](https://www.nber.org/reporter/2018number3/taxation-and-innovation). 
+I study **global value chains**, **urban** and **spatial** economics.
+
+I received a BSc in mathematics and economics from Ecole Polytechnique in 2019, a MRes in Economics from IPParis and a Statistician/Economist MSc degree from [ENSAE](https://www.ensae.fr/) in 2020. From some parallel life, I also hold a BA in Philosophy. 
+
+
+Here is my [CV](/homepage/CV_academic.pdf) and my [Google Scholar profile](https://scholar.google.com/citations?user=dt7xJSYAAAAJ&hl=en).
 
 ## Contact
 
-**Email:** [sstantcheva@fas.harvard.edu](sstantcheva@fas.harvard.edu)  
-**Adress:** 
-Department of Economics  
-Littauer Center 232  
-Harvard University  
-Cambridge, MA  02138  
-
-**Staff Support:** Michael O'Neil  
-**Email:** [michael_oneil@fas.harvard.edu](michael_oneil@fas.harvard.edu)  
-**Tel.:** 617-496-2606  
+**Email:** [raphael.lafrogne-joussier@ensae.fr](raphael.lafrogne-joussier@ensae.fr)  
+**Adress:**  
+Département des études économiques  
+INSEE  
+88 Avenue Verdier  
+92120 Montrouge, France
 
 
-**Website:** This website was built using Hugo. Feel free to repurpose its code, which you can find on [GitHub](https://github.com/cschesch/stefanie-stantcheva).
+**Website:** This website was built using [Hugo](https://gohugo.io/) and the Academimal theme from [Lei Yang](https://github.com/yangl1996/academimal). 

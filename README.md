@@ -1,25 +1,3 @@
-### Stefanie Stantcheva's Website - Documentation
+### Raphael Lafrogne-Joussier's Website
 
-This website was built using Hugo, the Academimal theme for Hugo and elements from Lei Yang's and Gautam Rao's website. Thanks a lot to both!
-
-**If you want to build your own website:** The simplest avenue is to [install Hugo](https://gohugo.io/getting-started/quick-start/), clone this GitHub repository to your computer, modify the parts you want to change and render it locally. You can then host it online using [Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/), [Render](https://gohugo.io/hosting-and-deployment/hosting-on-render/), [GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/) or a similar services.
-
-
-If you only want to change the content on the webpage, all you have to change is the `config.toml` file, the `content` folder and the `data/research/research.yaml` file. If you want to change the appearance of the website, you will need to edit the theme under `theme/academimal`. To find additionnal inspiration, you can look at [Gautam Rao's](https://gautam-rao.com/) and [Lei Yang's](https://people.csail.mit.edu/leiy/) webpages and their GitHub repositories.
-
-
-**If you want to edit this website:**
-
-- *In general:* You will need to clone this repository to your local device, make the changes you want to implement, test wether they render properly locally and online, and then [make a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). Stephanie Stantcheva will need to approve it. Alternatively, you can also be added to the [repository's collaborators](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository).
-
-- *To change the content of the `Home`, `Broader Audience Writing` and `Media` pages:* The content of these pages are respectively in `content/_index.md`, `content/writing/_index.md` and `content/media/_index.md`. You simply need to edit the file, which is written in [GitHub markdown](https://guides.github.com/features/mastering-markdown/). To add a link to a PDF or any other document, you can either:
-	- Put in a link to a document hosted on Dropbox, Harvard or any other website: `[[Relevant file]](	https://www.dropbox.com/s/RELEVANTLINK.pdf)` will generate a link to the relevant file.
-	- Host the file on this website by putting it into the `static` folder. It is the base folder for relative URLs to site content, so a document titled `test.pdf` saved in `static` will simply have the link `/test.pdf`. The folder has a structure with subfolders that keeps things organised: a document put in, say, `static/media` will have the link `/media/test.pdf`. To make the document open in a new tab, which is the general desired behavior on the page, you need to put in the full URL so that Hugo will interpret the link as external: `[[Test]](https://stefanie-stantcheva.com/media/test.pdf)` will generate a link to `/media/test.pdf` that opens in a new tab.
-
-- *To change the content of the `Research` page:* Only the introduction to this page is in `content/research/_index.md`, while the articles are listed in the `data/research/research.yaml` file. To add a new article, copy-paste one of the existing ones and change its attributes. Empty attributes sometimes lead to faulty appearance, so delete the one's you don't need. Articles are automatically put in the category of the list in which you entered them. To change an existing article, simply edit its current entry. *Note:* the order of the articles is the order in which they will show up, so keep it chronological; furthermore, do not put anything else than a year in YYYY format under the "year" entry, otherwise the year-subtitles for publications will break.
-
-- *To change the appearance of the whole site:* Some options, notably fronts, colours and sizes can be edited in the `themes/academimal/static/css/style.css` file. More complex edits will require you to change the `.html` of individual pages or of the sidebar, which is a far more convoluted process, notably because the code is spread across many different snippets. For example, if you want to change the URL to which a link in the sidebar refers, you need to open `layouts/partials/sidebar.html` and change the `href` value next to the link text you want to edit. In `.html` files, parts in accollades (e.g. `{{ .Site.Title }}`) are in Go language and should be edited with even more caution. *Tip:* use "inspect element" in your browser and the "search" function in your computer generously to find the `.html` file that governs the page element you want to alter.
-
-- The site's content is on GitHub, but its content is hosted on *Netlify*. Furthermore, the domain is purchased annually through *Domain.com*. More information to manage this can be found in the "Websites – Accounts and Information" document (ask Stefanie or another RA!).
-
-**If you have any questions,** feel free to write to c.schesch@gmail.com or sstantcheva@fas.harvard.edu.
+This website was creeated using Hugo and its Academimal theme. Thanks to Stefanie Stantcheva for making the code for her colourful website re-purposable.

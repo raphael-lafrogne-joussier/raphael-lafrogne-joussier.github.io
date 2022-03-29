@@ -1,17 +1,19 @@
 relativeURLs = true
 googleAnalytics = "UA-159072578-1"
-title = "Stefanie Stantcheva"
+title = "Raphaël Lafrogne-Joussier"
 theme = "academimal"
 sectionPagesMenu = "main"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+naseURL = "https://raphael-lafrogne-joussier.github.io"
 
 [author]
-name = "Stefanie Stantcheva"
+name = "Raphaël Lafrogne-Joussier"
 
 [params]
-title = "Nathaniel Ropes Professor of Political Economy,"
-institution = "Harvard University"
-logo = "Stefanie_Stantcheva_headshot_signed_fil-3.jpg"
-Twitter = "S_Stantcheva"
-Email = "sstantcheva@fas.harvard.edu"
+title = "PhD Candidate,"
+institution = "CREST-Ecole Polytechnique"
+logo = "RLJ_half_pic.jpeg"
+Linkedin = "raphaël-lafrogne-joussier"
+Email = "raphael.lafrogne-joussier@ensae.fr"
+

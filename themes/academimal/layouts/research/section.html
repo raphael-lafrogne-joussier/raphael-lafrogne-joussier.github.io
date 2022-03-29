@@ -20,13 +20,9 @@
     {{ range .Site.Data.research }}
     {{ $.Scratch.Set "count" 0 }}
 
-   <!--
 
-BP: Remove comments when you will need to add Works in Progress again
-You should also edit side bar
-
-    <h2 id="WorksInProgress">Works in Progress</h2>
-    {{ with .worksinprogress }}
+    <h2 id="WorkInProgress">Work in Progress</h2>
+    {{ with .workinprogress }}
     {{range . }}
     {{ $.Scratch.Add "count" 1 }}
     {{$index:= $.Scratch.Get "count" }}
@@ -39,8 +35,10 @@ You should also edit side bar
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
-        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }}, {{ .year }} </em>
-
+        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }} {{ .year }} </em>
+<!--
+ {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }}, {{ .year }} </em>
+-->
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
         {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> (click to expand)</span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
@@ -67,7 +65,7 @@ You should also edit side bar
     {{ end }}
     {{ end }}
     <br>
--->
+
     <h2 id="WorkingPapers">Working Papers</h2>
 
     {{ with .workingpapers }}
@@ -112,7 +110,7 @@ You should also edit side bar
     {{ end }}
     {{ end }}
     <br>
-
+<!--
     <h2 id="Publications">Publications</h2>
     <div style="margin-top:-25px;"></div>
     {{ with .publications }}
@@ -159,7 +157,7 @@ You should also edit side bar
     {{ end }}
     {{ end }}
     <br>
-
+-->
     
 
     {{ end }}

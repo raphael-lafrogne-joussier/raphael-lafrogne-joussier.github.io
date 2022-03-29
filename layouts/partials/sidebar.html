@@ -6,32 +6,20 @@
 {{ $.Scratch.Set "currentPageTitle" .Title }}
 
 {{ range .Site.Menus.main }}
+	
 <p class="sidebar"><a class="sidebar" href="{{ .URL | relURL }}">{{- .Name -}}</a></p>
 
-	{{ if and (eq "Research" ($.Scratch.Get "currentPageTitle")) (eq "Research" .Title) }}
-	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
-	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#Publications" | relURL }}">Publications</a></p>
-<!--	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorksInProgress" | relURL }}">Works in Progress</a></p> -->
-	{{end}}
-
-{{ end }}
-
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva/classes">Teaching</a></p>
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva/classes/ec2907-public-reading-group">Reading Group</a></p>
-<p class="sidebar"><a class="sidebar" href="http://socialeconomicslab.org/">Social Economics Lab</a></p>
-<p class="sidebar"><a class="sidebar" href="http://understandingeconomics.org/">Understanding Economics</a></p>
-<p class="sidebar"><a class="sidebar" href="https://scholar.harvard.edu/stantcheva">Contact and Harvard Page</a></p>
-<p class="sidebar"><a class="sidebar" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=62bc21f7-1c83-4bca-8f15-c70a9edae2c5&ccId=19000101_000001&jobId=412551&source=CC2&lang=en_US">Join The Team</a></p>
+{{end}}
 
 <p class="sidebar">
-<img src="{{ "/icons/email-white-small.png" | relURL }}" class="octicons">
+<img src="{{ "/icons/mail.png" | relURL }}" class="octicons">
 <a class="sidebar" href="mailto:{{ .Site.Params.Email }}" target="_blank">
 {{ .Site.Params.Email }}
 </a></p>
 <p class="sidebar">
-	<img src="{{ "/icons/twitter-white.png" | relURL }}" class="octicons">
-<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
-@{{ .Site.Params.Twitter }}
+	<img src="{{ "/icons/linkedin.png" | relURL }}" class="octicons">
+<a class="sidebar" href="https://linkedin.com/in/{{ .Site.Params.Linkedin }}" target="_blank">
+@{{ .Site.Params.Linkedin }}
 </a></p>
 
 {{ with .Site.Params.logo }}
