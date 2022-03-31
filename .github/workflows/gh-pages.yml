@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: raphael-lafrogne-joussier/raphael-lafrogne-joussier@main
+        uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
