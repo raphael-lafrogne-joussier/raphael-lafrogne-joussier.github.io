@@ -8,7 +8,13 @@ on:
 
 jobs:
   build:
-    uses: srt32/hugo-action@v0.0.3
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Build Hugo
+      uses: lowply/build-hugo@v0.92.1
 
   deploy:
     runs-on: ubuntu-20.04
