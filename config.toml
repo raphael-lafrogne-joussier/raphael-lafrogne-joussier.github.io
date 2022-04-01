@@ -5,7 +5,7 @@ theme = "academimal"
 sectionPagesMenu = "main"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-naseURL = "https://raphael-lafrogne-joussier.github.io/"
+baseURL = "https://raphael-lafrogne-joussier.github.io/"
 
 [author]
 name = "Raphaël Lafrogne-Joussier"
