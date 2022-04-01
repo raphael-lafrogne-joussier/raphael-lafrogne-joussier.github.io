@@ -7,6 +7,9 @@ on:
   pull_request:
 
 jobs:
+  build:
+    uses: srt32/hugo-action@v0.0.3
+
   deploy:
     runs-on: ubuntu-20.04
     concurrency:
