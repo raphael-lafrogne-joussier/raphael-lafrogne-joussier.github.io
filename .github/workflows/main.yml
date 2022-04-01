@@ -1,30 +1,48 @@
-name: GitHub Pages
+name: production-deploy
 
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
+      - main
+  workflow_dispatch:
 
-jobs: 
-  setup:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2.4.13     
+jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-    - name: Build Hugo
-      uses: lowply/build-hugo@v0.92.1
-      
-  publish:
-    name: Publish
-    runs-on: ubuntu-latest
-    steps:
-    - name: Hugo Publish
-      uses: avinassh/hugo-publish@0.0.1
 
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: install hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: clean up
+        run: |
+          if [ -d "public" ]; then
+            rm -rf public
+          fi
+      - name: setup
+        id: vars
+        run: |
+          echo "::set-output name=commit_msg::$(git log -1 --pretty=%B)"
+          git worktree add public gh-pages
+      - name: build
+        run: hugo --minify
+
+      - name: commit
+        run: |
+          cd public
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          if [ "`git status -s`" ]
+          then
+            git add --all
+            git commit -am "deployed: ${{ steps.vars.outputs.commit_msg }}"
+          fi     
+      - name: deploy
+        run: git push --all
