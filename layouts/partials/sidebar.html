@@ -17,15 +17,12 @@
 {{ .Site.Params.Email }}
 </a></p>
 <p class="sidebar">
+	<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Twitter }}" target="_blank">
 	<img src="{{ "/icons/twitter.png" | relURL }}" class="octicons">
-<a class="sidebar" href="https://twitter.com/{{ .Site.Params.Linkedin }}" target="_blank">
-@{{ .Site.Params.Twitter }}
-</a></p>
-<p class="sidebar">
+	<a class="sidebar" href="https://linkedin.com/in/{{ .Site.Params.Linkedin }}" target="_blank">
 	<img src="{{ "/icons/linkedin.png" | relURL }}" class="octicons">
-<a class="sidebar" href="https://linkedin.com/in/{{ .Site.Params.Linkedin }}" target="_blank">
-@{{ .Site.Params.Linkedin }}
 </a></p>
+
 
 {{ with .Site.Params.logo }}
 {{ if (eq "Homepage" ($.Scratch.Get "currentPageTitle")) }}
