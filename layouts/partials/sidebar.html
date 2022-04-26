@@ -8,7 +8,14 @@
 {{ range .Site.Menus.main }}
 	
 <p class="sidebar"><a class="sidebar" href="{{ .URL | relURL }}">{{- .Name -}}</a></p>
-
+	
+	{{ if and (eq "Research" ($.Scratch.Get "currentPageTitle")) (eq "Research" .Title) }}
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorksInProgress" | relURL }}">Works in Progress</a></p> 
+	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#WorkingPapers" | relURL }}">Working Papers</a></p>
+	<!-- <p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#Publications" | relURL }}">Publications</a></p> -->
+	<!--	<p class="sidebar" style="margin-left:2vw;"><a class="sidebar" href="{{ "research/#PublicationsinFrench" | relURL }}">Publications in French</a></p> -->
+<!--	-->
+	{{end}}
 {{end}}
 
 <p class="sidebar">

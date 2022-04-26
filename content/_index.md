@@ -18,7 +18,7 @@ Here is my [CV](https://raphael-lafrogne-joussier.github.io/homepage/CV_academic
 **Email:** [raphael.lafrogne-joussier@ensae.fr](raphael.lafrogne-joussier@ensae.fr)  
 **Adress:**  
 Département des études économiques  
-INSEE  
+Direction Générale de l'INSEE  
 88 Avenue Verdier  
 92120 Montrouge, France
 
