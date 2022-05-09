@@ -8,7 +8,7 @@ I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Poly
 
 I study **global value chains**, **urban** and **spatial** economics.
 
-I received a BSc in mathematics and economics from Ecole Polytechnique in 2019, a MRes in Economics from IPParis and a Statistician/Economist MSc degree from [ENSAE](https://www.ensae.fr/) in 2020. From some parallel life, I also hold a BA in Philosophy. 
+I received a BSc in mathematics and economics from Ecole Polytechnique in 2019, a MRes in Economics from IP Paris and a Statistician/Economist MSc degree from [ENSAE](https://www.ensae.fr/) in 2020. From some parallel life, I also hold a BA in Philosophy. 
 
 
 Here is my [CV](https://raphael-lafrogne-joussier.github.io/homepage/CV_academic.pdf) and my [Google Scholar profile](https://scholar.google.com/citations?user=dt7xJSYAAAAJ&hl=en).
