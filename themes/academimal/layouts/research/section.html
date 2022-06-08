@@ -31,7 +31,12 @@
     <p>
         <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
         
-        {{ with .coauthors }}<p style="margin:5px 0px 5px 0px;">(with {{ . }})</p>{{ end }}
+        {{ with .coauthors }}
+        <p style="margin:5px 0px 5px 0px;"> with
+        {{ range $i, $e := . }}{{ if $i }},  {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+        {{ end }}
+        </p>
+        {{ end }}
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
@@ -41,7 +46,7 @@
 -->
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
-        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> (click to expand)</span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
+        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"></span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 
         {{ with .links }}
         {{ range . }}
@@ -65,7 +70,7 @@
     {{ end }}
     {{ end }}
     <br>
-
+<!--
     <h2 id="WorkingPapers">Working Papers</h2>
 
     {{ with .workingpapers }}
@@ -77,7 +82,12 @@
     <p>
         <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
         
-        {{ with .coauthors }}<p style="margin:5px 0px 5px 0px;">(with {{ . }})</p>{{ end }}
+        {{ with .coauthors }}
+        <p style="margin:5px 0px 5px 0px;"> with
+        {{ range $i, $e := . }}{{ if $i }},  {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+        {{ end }}
+        </p>
+        {{ end }}
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
@@ -85,7 +95,7 @@
 
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
-        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> (click to expand)</span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
+        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> </span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 
         {{ with .links }}
         {{ range . }}
@@ -110,7 +120,7 @@
     {{ end }}
     {{ end }}
     <br>
-<!--
+-->
     <h2 id="Publications">Publications</h2>
     <div style="margin-top:-25px;"></div>
     {{ with .publications }}
@@ -125,7 +135,12 @@
     <p>
         <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
         
-        {{ with .coauthors }}<p style="margin:5px 0px 5px 0px;">(with {{ . }})</p>{{ end }}
+        {{ with .coauthors }}
+        <p style="margin:5px 0px 5px 0px;"> with
+        {{ range $i, $e := . }}{{ if $i }},  {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+        {{ end }}
+        </p>
+        {{ end }}
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
@@ -133,7 +148,7 @@
 
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
-        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> (click to expand)</span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
+        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">Abstract<span id="pubabslink_{{ $index }}"> </span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 
         {{ with .links }}
         {{ range . }}
@@ -157,6 +172,7 @@
     {{ end }}
     {{ end }}
     <br>
+    <!--
      <h2 id="PublicationsinFrench">Publications</h2>
     <div style="margin-top:-25px;"></div>
     {{ with .publications }}
