@@ -19,14 +19,20 @@ publications:
   abstract: >
       How do firms in global value chains react to input shortages? We examine micro-level adjustments to supply chain shocks, building on the COVID-19 pandemic as a case study. French firms sourcing inputs from China just before the early lockdown in the country experienced a relative drop in imports that increases from February to April 2020. This shock on input purchases transmits to the rest of the supply chain through exposed firms' domestic and export sales. Between February and June, firms exposed to the Chinese early lockdown experienced a 5.5% drop in domestic sales and a 5% drop in exports, in relative terms with respect to comparable non-exposed firms. The drop in foreign sales is entirely attributable to a lower volume of exports driven by a temporary withdrawal from occasional markets. We then dig into the heterogeneity of the transmission across treated firms. Whereas the ex-ante geographic diversification of inputs does not seem to mitigate the impact of the shock, firms with relatively high inventories have been able to absorb the supply shock better.
 workinprogress:
-- title: "People Flows and Urban Crime: New Evidence from Smartphone Data"
+- title: "People Flows and Urban Crime: Evidence from Smartphone Data"
   coauthors: 
     - url: "https://www.vincent-rollet.com/"
       text: "Vincent Rollet"
   book: "Draft coming soon!"
   abstract: >
-    Using smartphone location data in Chicago, we build a measure of ambient density -- the number of people per sq. ft at a given time -- for all neighborhoods of the city. We show that there is more variation in crime rates within neighborhoods over short periods of time than between neighborhoods. We then investigate the effect of ambient density on crime. With a shift-share instrument and temporary transit station closures as natural experiments, we show that crime rates usually fall when local ambient density increases. Our IV approach reveals nonlinear effects of density, with medium levels leading to the lowest crime rates.
+      With smartphone location data, we measure people flows in Chicago and estimate their effect on crime rates. Using a shift-share instrument and temporary transit station closures for identification, we show that crime rates usually fall when ambient density -- the number of people per sq. ft at a given time --  increases. We find nonlinear effects of density, with increases in ambient density being the most beneficial in less dense neighborhoods or at less busy times. This suggests that spreading people flows over space and time can help reduce urban crime. 
 - title: "Spatial Comovement"
   coauthors: 
     - url: "https://www.isabellemejean.com/"
       text: "Isabelle Mejean"
+- title: "Forces et faiblesses des MRIO pour le calcul de l'empreinte carbone"
+  book: "INSEE, Document de travail"
+  coauthors: 
+    - text: "Alexandre Bourgeois"
+    - text: "Flavien Gervois"
+    
