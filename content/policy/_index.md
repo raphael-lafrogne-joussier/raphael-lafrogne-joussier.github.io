@@ -5,6 +5,7 @@ weight = 0
 
 
 **2022:**
+INSEE Analyses n.75 *"La flambée des prix de l’énergie : un effet sur l’inflation réduit de moitié par le « bouclier tarifaire"* : [[Article (in French)]](https://www.insee.fr/fr/statistiques/6524161)(Press coverage: Le Monde, Libération, Les Échos, La Croix, France tv, Radio France, AFP)
 
 INSEE Analyses n.74 *"Un tiers de l’empreinte carbone de l’Union européenne est dû à ses importations"* : [[Article (in French)]](https://www.insee.fr/fr/statistiques/6474294)
 
