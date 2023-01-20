@@ -44,3 +44,8 @@ workinprogress:
   coauthors: 
     - url: "https://www.isabellemejean.com/"
       text: "Isabelle Mejean"
+- title: "Modeling Dependence in Trade: Asymptotic Results and Inference"
+  coauthors: 
+    - text: "Laurent Davezies"
+    - url: "https://julesdepersin.github.io/"
+      text: "Jules Depersin"
