@@ -1,7 +1,7 @@
 publications:
 - title: "Supply Shocks in Supply Chains: Evidence from the early lockdown in China"
   pdflink: "https://www.dropbox.com/s/t6fvtm7kzcef1cy/LJMM_2022.pdf?dl=0"
-  book: "IMF Economic Review [+ CEPR Discussion Paper 16813]"
+  book: "IMF Economic Review"
   coauthors: 
       - url: "https://www.julienmartin.eu/"
         text: "Julien Martin"
@@ -9,13 +9,14 @@ publications:
         text: "Isabelle Mejean"
   year: "2022"
   links:
+    - url: "https://www.dropbox.com/s/h5ftnlapii6mrpt/LJMM_2022_CEPR.pdf?dl=0"
+      text: "[CEPR Discussion Paper 16813]"
     - url: "https://www.dropbox.com/s/ftxsbu1ig7fg86j/LJMM_2021.pdf?dl=0"
-      text: "Slides"
-    - url: "https://players.brightcove.net/45228659001/default_default/index.html?videoId=6281672789001"
-      text: "Video at IMF ARC, November 2021 (starts at 44:30)"
-  presscoverage:
+      text: "[Slides]"
     - url: "https://voxeu.org/article/supply-chain-disruptions-and-mitigation-strategies"
-      text: "VoxEU"
+      text: "[VoxEU Summary]"
+    - url: "https://players.brightcove.net/45228659001/default_default/index.html?videoId=6281672789001"
+      text: "[Video at IMF ARC (44:30)]"
   abstract: >
       How do firms in global value chains react to input shortages? We examine micro-level adjustments to supply chain shocks, building on the COVID-19 pandemic as a case study. French firms sourcing inputs from China just before the early lockdown in the country experienced a relative drop in imports that increases from February to April 2020. This shock on input purchases transmits to the rest of the supply chain through exposed firms' domestic and export sales. Between February and June, firms exposed to the Chinese early lockdown experienced a 5.5% drop in domestic sales and a 5% drop in exports, in relative terms with respect to comparable non-exposed firms. The drop in foreign sales is entirely attributable to a lower volume of exports driven by a temporary withdrawal from occasional markets. We then dig into the heterogeneity of the transmission across treated firms. Whereas the ex-ante geographic diversification of inputs does not seem to mitigate the impact of the shock, firms with relatively high inventories have been able to absorb the supply shock better.
 - title: "Forces et faiblesses des TIES pour le calcul de l'empreinte carbone"
@@ -34,7 +35,7 @@ workinprogress:
         text: "Isabelle Mejean"
   links:
     - url: "https://www.dropbox.com/s/k2rzqgyrjvww7ga/lmm_ppi_slides_v2.pdf?dl=0"
-      text: "Slides"
+      text: "[Slides]"
   abstract: >
       We use the micro-level price data underlying the French producer price index between January 2018 and July 2022 together with external measures of firms' exposure to imported inputs and energy cost shocks to study the role of external shocks in the recent inflation surge. Firms in our sample pass through 30% of imported input prices and 100% of energy costs onto producer prices, conditional on their exposure to these shocks. For the average firm in our data, this implies that a 10% increase in foreign costs leads to a .74% rise in output prices whereas a 10% energy cost shock induces prices to increase by .73%. We study how pass-through rates vary across firms within and across industries, depending on their size and exposure to shocks. Pass-through rates are asymmetric, with positive cost shocks inducing significantly more pass-through than negative shocks. Heterogeneity in exposure to external shocks, across firms and sectors, drives important discrepancies in inflation dynamics along firms' distribution. We predict price changes from cumulative imported inputs and energy price changes between January 2021 and July 2022. 80% of the variance in predicted price changes happens within 2-digit industries, across firms. The chemical and metal industries have been the most impacted by both imported and energy cost shocks, which have contributed to 3 to 6 percentage points increase in producer prices. 
 - title: "People Flows and Urban Crime: Evidence from Smartphone Data"
