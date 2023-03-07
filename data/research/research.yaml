@@ -38,7 +38,7 @@ workinprogress:
       text: "[Slides]"
   abstract: >
       We use the micro-level price data underlying the French producer price index between January 2018 and July 2022 together with external measures of firms' exposure to imported inputs and energy cost shocks to study the role of external shocks in the recent inflation surge. Firms in our sample pass through 30% of imported input prices and 100% of energy costs onto producer prices, conditional on their exposure to these shocks. For the average firm in our data, this implies that a 10% increase in foreign costs leads to a .74% rise in output prices whereas a 10% energy cost shock induces prices to increase by .73%. We study how pass-through rates vary across firms within and across industries, depending on their size and exposure to shocks. Pass-through rates are asymmetric, with positive cost shocks inducing significantly more pass-through than negative shocks. Heterogeneity in exposure to external shocks, across firms and sectors, drives important discrepancies in inflation dynamics along firms' distribution. We predict price changes from cumulative imported inputs and energy price changes between January 2021 and July 2022. 80% of the variance in predicted price changes happens within 2-digit industries, across firms. The chemical and metal industries have been the most impacted by both imported and energy cost shocks, which have contributed to 3 to 6 percentage points increase in producer prices. 
-- title: "People Flows and Urban Crime: Evidence from Smartphone Data"
+- title: "Amient Density and Urban Crime: Evidence from Smartphone Data"
   coauthors: 
     - url: "https://www.vincent-rollet.com/"
       text: "Vincent Rollet"
