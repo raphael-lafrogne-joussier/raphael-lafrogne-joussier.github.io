@@ -5,6 +5,10 @@ weight = 1
 
 ## Teaching
 
+### 2023
+
+*International Trade*, Graduate level, 6h, ENSAE
+
 ### 2022
 
 *Business Cycles Fluctuations*, Graduate Macro, 27h, IP Paris
