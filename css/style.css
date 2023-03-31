@@ -242,6 +242,12 @@ body {
   color: #5e5e5e;
   font-weight: 400; }
 
+p {
+  font-size: 18px; }
+
+em {
+  font-size: 18px; }
+  
 h1, h2, h3, h4, h5, h6 {
   color: #5e5e5e;
   margin: 0 0 20px; }
