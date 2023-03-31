@@ -38,6 +38,8 @@
         </p>
         {{ end }}
 
+        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;"><em>{{ . }}</em></span>{{ end }}<em>{{ .book }} {{ .year }} </em>
+
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
         {{ with .links }}
