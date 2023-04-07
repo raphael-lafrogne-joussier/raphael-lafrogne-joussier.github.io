@@ -15,7 +15,8 @@ Here are my [CV](https://raphael-lafrogne-joussier.github.io/homepage/CV_academi
 
 I am currently working as a macroeconomist at the French National Institute for Statistics and Economic Studies ([Insee](https://www.insee.fr/)).
 
-## Contact
+
+# Contact
 
 **Email:** [raphael.lafrogne-joussier@ensae.fr](raphael.lafrogne-joussier@ensae.fr)  
 **Adress:**  
@@ -25,3 +26,4 @@ CREST -- Departement of Economics
 
 
 **Website:** This website was built using [Hugo](https://gohugo.io/) and the Academimal theme from [Lei Yang](https://github.com/yangl1996/academimal). 
+

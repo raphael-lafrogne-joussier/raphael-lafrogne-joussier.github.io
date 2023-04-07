@@ -3,7 +3,6 @@ title = "Teaching"
 weight = 1
 +++
 
-## Teaching
 
 ### 2023
 
