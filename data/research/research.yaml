@@ -1,13 +1,13 @@
 publications:
-- title: "Supply Shocks in Supply Chains: Evidence from the early lockdown in China"
-  pdflink: "https://www.dropbox.com/s/t6fvtm7kzcef1cy/LJMM_2022.pdf?dl=0"
-  book: "IMF Economic Review"
+- title: "Supply Shocks in Supply Chains: Evidence from the Early Lockdown in China"
+  pdflink: "https://www.dropbox.com/s/t6fvtm7kzcef1cy/LJMM_2023.pdf?dl=0"
+  book: "IMF Economic Review 71(1): 170--215, 2023"
   coauthors: 
       - url: "https://www.julienmartin.eu/"
         text: "Julien Martin"
       - url: "https://www.isabellemejean.com/"
         text: "Isabelle Mejean"
-  year: "2022"
+  year: ""
   links:
     - url: "https://www.dropbox.com/s/h5ftnlapii6mrpt/LJMM_2022_CEPR.pdf?dl=0"
       text: "[CEPR Discussion Paper 16813]"
@@ -19,16 +19,19 @@ publications:
       text: "[Video at IMF ARC (44:30)]"
   abstract: >
       How do firms in global value chains react to input shortages? We examine micro-level adjustments to supply chain shocks, building on the COVID-19 pandemic as a case study. French firms sourcing inputs from China just before the early lockdown in the country experienced a relative drop in imports that increases from February to April 2020. This shock on input purchases transmits to the rest of the supply chain through exposed firms' domestic and export sales. Between February and June, firms exposed to the Chinese early lockdown experienced a 5.5% drop in domestic sales and a 5% drop in exports, in relative terms with respect to comparable non-exposed firms. The drop in foreign sales is entirely attributable to a lower volume of exports driven by a temporary withdrawal from occasional markets. We then dig into the heterogeneity of the transmission across treated firms. Whereas the ex-ante geographic diversification of inputs does not seem to mitigate the impact of the shock, firms with relatively high inventories have been able to absorb the supply shock better.
-- title: "Forces et faiblesses des TIES pour le calcul de l'empreinte carbone"
+- title: "Strengths and Weaknesses of Multi-Regional Input-Output Tables for Carbon Footprints"
   book: "INSEE, Document de travail"
   coauthors: 
     - text: "Alexandre Bourgeois"
     - text: "Flavien Gervois"
-  year: "Forthcoming"
+  year: "Forthcoming (in French)"
 workingpapers:
 - title: "Amient Density and Urban Crime: Evidence from Smartphone Data"
   book: "Submitted"
   pdflink: "https://www.dropbox.com/s/72cccq0f581jq8f/urban_crime.pdf?dl=0"
+  links:
+    - url: "https://www.dropbox.com/s/kxo4b1wsqtlnz2i/urban_crime_current_slides.pdf?dl=0"
+      text: "[Slides]"
   coauthors: 
     - url: "https://www.vincent-rollet.com/"
       text: "Vincent Rollet"
