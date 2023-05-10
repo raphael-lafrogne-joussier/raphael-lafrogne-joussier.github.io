@@ -1,8 +1,13 @@
 +++
-title = "Policy"
+title = "Policy & French writings"
 weight = 0
 +++
 
+### 2023
+
+Insee Analyses n.84 *"La transmission directe des coûts des intrants importés et de l’énergie aux prix de production : un impact très variable d’une entreprise à l’autre"* [[Article (in French)]](https://www.insee.fr/fr/statistiques/7616072)
+
+Focus du CAE 94 *"Transmission des coûts importés et montée de l'inflation"* [[Link]](https://www.cae-eco.fr/transmission-des-couts-et-montee-de-l-inflation)
 
 ### 2022
 
