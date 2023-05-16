@@ -29,23 +29,43 @@
     {{ $other_text := .other_text }} 
 
      <p>
-        <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
+     <h4 style="margin:20px 0px 5px;">
+    {{ with .pdflink }}
+        <a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>
+    {{ end }}
         
-        {{ with .coauthors }}
-        <p style="margin:5px 0px 5px 0px;"> with
-        {{ range $i, $e := . }}{{ if $i }} and {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+    {{ with .coauthors }}
+        <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
+            {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+            {{ end }}
+        </span>
+    {{ end }}
+    </h4>
+
+    {{ with .note }}<span style="margin:5px 0px 5px 0px;"><em>{{ . }}</em></span>{{ end }}
+
+<!--
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="width: 550px;">
+    {{ with .links }}
+      <p style="margin:5px 0px 5px 0px;">
+        {{ range $i, $e := . }}{{ if $i }}  {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
         {{ end }}
-        </p>
-        {{ end }}
+      </p>
+    {{ end }}
 
-        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;"><em>{{ . }}</em></span>{{ end }}<em>{{ .book }} {{ .year }} </em>
-
-        {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
-
+    {{ with .abstract }}
+      <p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">[+] Abstract<span id="pubabslink_{{ $index }}"> </span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>
+    {{ end }}
+  </div>
+</div>
+-->
         {{ with .links }}
         <p style="margin:5px 0px 5px 0px;">{{ range $i, $e := . }}{{ if $i }}  {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
         {{ end }}
         {{ end }}
+
+        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">[+] Abstract<span id="pubabslink_{{ $index }}"> </span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 
         {{ with .presscoverage }}
         <p style="margin:5px 0px 5px 0px;"> Press coverage:
@@ -53,7 +73,6 @@
         {{ end }}
         {{ end }}
 
-        {{ with .abstract }}<p style="margin:5px 0px 5px 0px;"><a href="javascript:toggle({{ $index }})">[+] Abstract<span id="pubabslink_{{ $index }}"> </span></a><span id="pubabs_{{ $index }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 
        {{ with .other }}
         <p style="margin:5px 0px 5px 0px;"> {{ $other_text }}:
@@ -75,21 +94,27 @@
     {{ $other_text := .other_text }} 
 
     <p>
-        <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
+     <h4 style="margin:20px 0px 5px;">
+    {{ with .pdflink }}
+        <a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>
+    {{ end }}
         
-        {{ with .coauthors }}
-        <p style="margin:5px 0px 5px 0px;"> with
-        {{ range $i, $e := . }}{{ if $i }} and {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
-        {{ end }}
-        </p>
-        {{ end }}
+    {{ with .coauthors }}
+        <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
+            {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+            {{ end }}
+        </span>
+    {{ end }}
+    {{ if .book_edited }}
+        <span style="margin:5px 0px 5px 0px; font-size: 14px;">, 
+            <em>{{ .book_edited }}</em></span>
+    {{ else }}
+        <span></span>
+    {{ end }}
+    </h4>
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
-        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }} {{ .year }} </em>
-<!--
- {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }}, {{ .year }} </em>
--->
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
         
@@ -130,19 +155,28 @@
   <!-- {{ if ne .year ($.Scratch.Get "curyear") }}<br><h3>{{ .year }}</h3>{{ $.Scratch.Set "curyear" .year}}{{ end }} -->
 
     <p>
-        <h4 style="margin:20px 0px 5px;">{{ with .pdflink }}<a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>{{ end }}</h4>
+     <h4 style="margin:20px 0px 5px;">
+    {{ with .pdflink }}
+        <a href="{{ . }}" target="blank">{{ end }}{{ .title }}{{ with .pdflink }}</a>
+    {{ end }}
         
-        {{ with .coauthors }}
-        <p style="margin:5px 0px 5px 0px;"> with
-        {{ range $i, $e := . }}{{ if $i }} and {{ end }}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
-        {{ end }}
-        </p>
-        {{ end }}
+    {{ with .coauthors }}
+        <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
+            {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
+            {{ end }}
+        </span>
+    {{ end }}
+    {{ if .book_edited }}
+        <span style="margin:5px 0px 5px 0px; font-size: 14px;">, 
+            <em>{{ .book_edited }}</em></span>
+    {{ else }}
+        <span></span>
+    {{ end }}
+    </h4>
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
 
-        {{ with .book_edited }}<span style="margin:5px 0px 5px 0px;">in <em>{{ . }}</em></span>{{ end }}<em>{{ .book }}</em>
-
+        
         {{ with .note }}<p style="margin:5px 0px 5px 0px;">{{ . }}</p>{{ end }}
 
         {{ with .links }}

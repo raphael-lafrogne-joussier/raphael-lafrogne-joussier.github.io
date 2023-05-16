@@ -2,8 +2,6 @@
 title = "Homepage"
 +++
 
-
-
 I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/).
 
 I study **global value chains**, **urban** and **spatial** economics.
