@@ -1,6 +1,8 @@
 +++
 title = "Homepage"
 +++
+**! NEWS: Check out the new version of the [urban crime paper](https://raphael-lafrogne-joussier.github.io/research/)!**
+
 Hello!
 
 I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/).
