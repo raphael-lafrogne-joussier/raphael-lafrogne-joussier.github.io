@@ -5,11 +5,11 @@ weight = 0
 
 ### 2023
 
-Document de travail de l'Insee 2023-14: *"Forces et fragilités des tableaux internationaux entrées-sorties pour le calcul de l’empreinte carbone"* [[Paper in French]](https://www.insee.fr/fr/statistiques/7624261)[[Abstract in English]](https://www.insee.fr/en/statistiques/7624267)
+Document de travail de l'Insee 2023-14 *"Forces et fragilités des tableaux internationaux entrées-sorties pour le calcul de l’empreinte carbone"* [[Paper in French]](https://www.insee.fr/fr/statistiques/7624261)[[Abstract in English]](https://www.insee.fr/en/statistiques/7624267)
 
 Insee Analyses n.84 *"La transmission directe des coûts des intrants importés et de l’énergie aux prix de production : un impact très variable d’une entreprise à l’autre"* [[In French]](https://www.insee.fr/fr/statistiques/7616072)[[In English]](https://www.insee.fr/en/statistiques/7631458)
 
-Focus du CAE 94 *"Transmission des coûts importés et montée de l'inflation"* [[In English]](https://www.cae-eco.fr/transmission-des-couts-et-montee-de-l-inflation)
+Focus du CAE 94/Document de travail de l'Insee 2023-13 *"Cost Pass-Through and the Rise of Inflation"* [[Focus CAE]](https://www.cae-eco.fr/transmission-des-couts-et-montee-de-l-inflation) [[Document de travail de l\'Insee]](https://www.insee.fr/en/statistiques/7616642)
 
 ### 2022
 
