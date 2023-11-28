@@ -18,17 +18,6 @@ publications:
   abstract: >
       How do firms in global value chains react to input shortages? We examine micro-level adjustments to supply chain shocks, building on the COVID-19 pandemic as a case study. French firms sourcing inputs from China just before the early lockdown in the country experienced a relative drop in imports that increases from February to April 2020. This shock on input purchases transmits to the rest of the supply chain through exposed firms' domestic and export sales. Between February and June, firms exposed to the Chinese early lockdown experienced a 5.5% drop in domestic sales and a 5% drop in exports, in relative terms with respect to comparable non-exposed firms. The drop in foreign sales is entirely attributable to a lower volume of exports driven by a temporary withdrawal from occasional markets. We then dig into the heterogeneity of the transmission across treated firms. Whereas the ex-ante geographic diversification of inputs does not seem to mitigate the impact of the shock, firms with relatively high inventories have been able to absorb the supply shock better.
 workingpapers:
-- title: "Ambient Density and Urban Crime: Evidence from Smartphone Data"
-  note: "Honorable mention at the 2023 European UEA meeting."
-  pdflink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4440554"
-  links:
-    - url: "https://www.dropbox.com/s/kxo4b1wsqtlnz2i/urban_crime_current_slides.pdf?dl=0"
-      text: "[Slides]"
-  coauthors: 
-    - url: "https://www.vincent-rollet.com/"
-      text: "Vincent Rollet"
-  abstract: >
-      Ambient density --- the number of people in a given area at a given time --- is often hypothesized to be an important determinant of urban safety. However, there has been limited empirical evidence to support this claim due to the difficulty of measuring the movement of ordinary citizens. With smartphone location data, we measure ambient density in Chicago neighborhoods and estimate its effect on crime rates. Using a shift-share instrument and temporary transit station closures for identification, we show that crime rates fall when ambient density increases. We find that the beneficial effects of density are strongest in low and medium-density neighborhoods, which suggests that policies spreading people over space are likely to reduce crime. Finally, we show how the development of work-from-home is likely to affect crime rates in different neighborhoods of Chicago.
 - title: "Energy Cost Pass-Through and the Rise of Inflation: Evidence from French Manufacturing Firms"
   note: "Best Paper awarded at the 2023 Franco-German Fiscal Policy Seminar."
   pdflink: "https://www.dropbox.com/scl/fi/48smygsj1c7fx6t92cilr/LJMM_PT.pdf?rlkey=m84yntbh7iru9mygdhdjmwj04&dl=0"
@@ -44,6 +33,17 @@ workingpapers:
       text: "[Supersedes \'Cost Pass-Through and the Rise of Inflation\']"
   abstract: >
       This paper presents micro evidence on energy price shock transmission to producer prices. We analyze microdata from the French Producer Price Index (PPI) and firms' energy usage. Firms fully pass on positive energy-driven cost shocks to prices but respond more modestly to cost reductions. Despite full pass-through of positive shocks, the recent energy price surge only moderately impacted manufacturing inflation, accounting for approximately 10% of total PPI growth between 2021 and 2022. This limited effect results from the relatively small share of energy in firms' variable costs. The average impact masks significant variations, primarily within industries.
+- title: "Ambient Density and Urban Crime: Evidence from Smartphone Data"
+  note: "Honorable mention at the 2023 European UEA meeting."
+  pdflink: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4440554"
+  links:
+    - url: "https://www.dropbox.com/s/kxo4b1wsqtlnz2i/urban_crime_current_slides.pdf?dl=0"
+      text: "[Slides]"
+  coauthors: 
+    - url: "https://www.vincent-rollet.com/"
+      text: "Vincent Rollet"
+  abstract: >
+      Ambient density --- the number of people in a given area at a given time --- is often hypothesized to be an important determinant of urban safety. However, there has been limited empirical evidence to support this claim due to the difficulty of measuring the movement of ordinary citizens. With smartphone location data, we measure ambient density in Chicago neighborhoods and estimate its effect on crime rates. Using a shift-share instrument and temporary transit station closures for identification, we show that crime rates fall when ambient density increases. We find that the beneficial effects of density are strongest in low and medium-density neighborhoods, which suggests that policies spreading people over space are likely to reduce crime. Finally, we show how the development of work-from-home is likely to affect crime rates in different neighborhoods of Chicago.
 workinprogress:
 - title: "Inventories and Resilience: Micro-evidence and Macro implications"
 - title: "Modeling Dependence in Trade: Asymptotic Results and Inference"
