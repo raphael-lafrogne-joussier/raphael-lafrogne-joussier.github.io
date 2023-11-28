@@ -40,8 +40,8 @@ workingpapers:
       - url: "https://www.isabellemejean.com/"
         text: "Isabelle Mejean"
   links:
-    - url: ""
-      text: "[CEPR Working Paper]"
+    - url: "https://cepr.org/publications/dp18596"
+      text: "[CEPR Discussion Paper 18596]"
     - url: "https://www.insee.fr/en/statistiques/7616642"
       text: "[Supersedes \'Cost Pass-Through and the Rise of Inflation\']"
   abstract: >
