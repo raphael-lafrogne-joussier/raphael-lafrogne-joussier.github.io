@@ -3,6 +3,10 @@ title = "Policy & French writings"
 weight = 0
 +++
 
+
+### 2024
+Insee Analyses n.93 *"Les effets de la pénurie d’intrants chinois sur les entreprises françaises début 2020 : quels enseignements ?"* [[In French]](https://www.insee.fr/fr/statistiques/7745514)
+
 ### 2023
 
 Document de travail de l'Insee 2023-14 *"Forces et fragilités des tableaux internationaux entrées-sorties pour le calcul de l’empreinte carbone"* [[Paper in French]](https://www.insee.fr/fr/statistiques/7624261)[[Abstract in English]](https://www.insee.fr/en/statistiques/7624267)
