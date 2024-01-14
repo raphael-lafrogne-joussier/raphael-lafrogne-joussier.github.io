@@ -1,13 +1,12 @@
-+++
+	+++
 title = "Homepage"
 +++
-**! New paper ! [The role of the energy crisis in the recent inflation episode](https://raphael-lafrogne-joussier.github.io/research/)**
 
 Welcome!
 
 I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/), currently visiting [Columbia University](https://econ.columbia.edu/). 
 
-I am an applied trade economist studying **risk in global value chains**. I am also in **urban** and **environmental** topics. 
+I am an applied trade economist studying **risk in global value chains**. I am also interested in **urban** and **environmental** topics. 
 
 I am currently working as a macroeconomist at the French National Institute for Statistics and Economic Studies ([Insee](https://www.insee.fr/)).	
 
