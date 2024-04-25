@@ -8,7 +8,7 @@ I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Poly
 
 I am an applied trade economist studying **risk in global value chains**. I am also interested in **urban** and **environmental** topics. 
 
-I am currently working as a macroeconomist at the French National Institute for Statistics and Economic Studies ([Insee](https://www.insee.fr/)).	
+I am currently working as a micro-to-macro economist at the French National Institute for Statistics and Economic Studies ([Insee](https://www.insee.fr/)).	
 
 <!--- I received a BSc in mathematics and economics from Ecole Polytechnique in 2019, a MRes in Economics from IP Paris and a Statistician/Economist MSc degree from [ENSAE](https://www.ensae.fr/) in 2020. From some parallel life, I also hold a BA in Philosophy. --->
 
