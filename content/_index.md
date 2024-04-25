@@ -4,7 +4,7 @@ title = "Homepage"
 
 Welcome!
 
-I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/), currently visiting [Columbia University](https://econ.columbia.edu/). 
+I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/). I visited [Columbia University](https://econ.columbia.edu/) during Spring 2024. 
 
 I am an applied trade economist studying **risk in global value chains**. I am also interested in **urban** and **environmental** topics. 
 
