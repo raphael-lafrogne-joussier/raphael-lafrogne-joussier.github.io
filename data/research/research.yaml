@@ -47,7 +47,7 @@ workingpapers:
   abstract: >
       Ambient density --- the number of people in a given area at a given time --- is often hypothesized to be an important determinant of urban safety. However, there has been limited empirical evidence to support this claim due to the difficulty of measuring the movement of ordinary citizens. With smartphone location data, we measure ambient density in Chicago neighborhoods and estimate its effect on crime rates. Using a shift-share instrument and temporary transit station closures for identification, we show that crime rates fall when ambient density increases. We find that the beneficial effects of density are strongest in low and medium-density neighborhoods, which suggests that policies spreading people over space are likely to reduce crime. Finally, we show how the development of work-from-home is likely to affect crime rates in different neighborhoods of Chicago.
 - title: "Reorganizing Global Supply-Chains: Who, What, How, and Where"
-  pdflink: "https://www.dropbox.com/scl/fi/4q2fcc5d6f7cikt8z6vfb/BFLJ_241003.pdf?rlkey=1k30lykgt1o47upawvies71b3&dl=0"
+  pdflink: "https://www.dropbox.com/scl/fi/xgw182uf0p8iebxowmvp7/BFLJ_241119.pdf?rlkey=2vndvwlte4dpxkck10bhs2w8u&dl=0"
   coauthors: 
     - text: "Gabriel Baratte"
     - url: "http://www.lionel-fontagne.eu/"
