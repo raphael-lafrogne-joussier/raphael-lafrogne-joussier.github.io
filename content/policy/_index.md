@@ -5,7 +5,10 @@ weight = 0
 
 
 ### 2024
+Insee Analyses n.100 *"Entre 2018 et 2020, les entreprises relocalisent plutôt des activités peu qualifiées, et délocalisent des activités qualifiées"* [[In French]](https://www.insee.fr/fr/statistiques/8296880)
+
 Insee Analyses n.93 *"Les effets de la pénurie d’intrants chinois sur les entreprises françaises début 2020 : quels enseignements ?"* [[In French]](https://www.insee.fr/fr/statistiques/7745514)[[Abstract in English]](https://www.insee.fr/en/statistiques/7758385)
+
 
 ### 2023
 
