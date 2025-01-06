@@ -4,9 +4,10 @@ title = "Homepage"
 
 Welcome!
 
-I am a PhD Candidate in Economics at [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/). I visited [Columbia University](https://econ.columbia.edu/) during Spring 2024. 
+I am an applied trade economist studying **risk in global value chains**. I am also interested in **urban** and **environmental** topics. I will be visiting [Princeton University](https://economics.princeton.edu) during April 2025.
 
-I am an applied trade economist studying **risk in global value chains**. I am also interested in **urban** and **environmental** topics. 
+I received my PhD in Economics from [CREST](https://crest.science/)-[Ecole Polytechnique](https://www.polytechnique.edu/en) ([IP Paris](https://www.ip-paris.fr/en)), under the supervision of [Isabelle Mejean](https://www.isabellemejean.com/). I visited [Columbia University](https://econ.columbia.edu/) during Spring 2024. 
+
 
 I am currently working as a micro-to-macro economist at the French National Institute for Statistics and Economic Studies ([Insee](https://www.insee.fr/)).	
 
@@ -19,11 +20,11 @@ You can find my CV [here](https://raphael-lafrogne-joussier.github.io/homepage/C
 
 # Contact
 
-**Email:** raphael dot lafrogne-joussier [at] ensae dot fr  
+**Email:** raphael dot lafrogne-joussier [at] insee dot fr  
 **Adress:**  
-CREST -- Departement of Economics  
-5 Avenue Le Chatelier  
-91120 Palaiseau, France
+INSEE -- Département des études économiques  
+88 Avenue Verdier  
+92120 Montrouge, France  
 
 
 **Website:** This website was built using [Hugo](https://gohugo.io/) and the Academimal theme from [Lei Yang](https://github.com/yangl1996/academimal). 

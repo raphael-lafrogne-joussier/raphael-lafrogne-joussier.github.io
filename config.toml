@@ -11,10 +11,10 @@ baseURL = "https://raphael-lafrogne-joussier.github.io/"
 name = "Raphaël Lafrogne-Joussier"
 
 [params]
-title = "PhD Candidate,"
-institution = "CREST-Ecole Polytechnique"
+title = "Economist at INSEE"
+institution = ""
 logo = "RLJ_half_pic.jpeg"
 Linkedin = "raphaël-lafrogne-joussier"
 Twitter = "Raph_LaJouss"
-Email = "raphael.lafrogne-joussier@ensae.fr"
+Email = "raphael.lafrogne-joussier@insee.fr"
 
