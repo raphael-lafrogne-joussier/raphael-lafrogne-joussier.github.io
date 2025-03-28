@@ -238,15 +238,15 @@
 body {
   background-color: #fff;
   margin: 0;
-  font:400 20px/1.5 "Palatino","Segoe UI","Segoe UI Symbol","Segoe UI Emoji","Apple Color Emoji",Roboto,Helvetica,Arial,sans-serif;
+  font:400 18px/1.5 "Palatino","Segoe UI","Segoe UI Symbol","Segoe UI Emoji","Apple Color Emoji",Roboto,Helvetica,Arial,sans-serif;
   color: #5e5e5e;
   font-weight: 400; }
 
 p {
-  font-size: 18px; }
+  font-size: 16px; }
 
 em {
-  font-size: 18px; }
+  font-size: 16px; }
   
 h1, h2, h3, h4, h5, h6 {
   color: #5e5e5e;
