@@ -64,7 +64,7 @@ workingpapers:
     - url: "https://www.dropbox.com/s/1083m7daw7kl0sr/lmm_ppi_slides_ecb.pdf?dl=0"
       text: "[Latest slides]"
     - url: "https://www.insee.fr/en/statistiques/7616642"
-      text: "[Supersedes \'Cost Pass-Through and the Rise of Inflation\']"
+      text: "[Supersedes 'Cost Pass-Through and the Rise of Inflation']"
   abstract: >
       This paper presents micro evidence on energy price shock transmission to producer prices. We analyze microdata from the French Producer Price Index (PPI) and firms' energy usage. Firms fully pass on positive energy-driven cost shocks to prices but respond more modestly to cost reductions. Despite full pass-through of positive shocks, the recent energy price surge only moderately impacted manufacturing inflation, accounting for approximately 10% of total PPI growth between 2021 and 2022. This limited effect results from the relatively small share of energy in firms' variable costs. The average impact masks significant variations, primarily within industries.
 workinprogress:
