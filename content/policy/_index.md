@@ -3,6 +3,8 @@ title = "Policy & French writings"
 weight = 0
 +++
 
+### 2025
+Insee Analyses n.114 *"Entre constitution de stocks et diversification des fournisseurs, quel choix pour les entreprises ?"* [[In French]](https://www.insee.fr/fr/statistiques/8296880)
 
 ### 2024
 Insee Analyses n.100 *"Entre 2018 et 2020, les entreprises relocalisent plutôt des activités peu qualifiées, et délocalisent des activités qualifiées"* [[In French]](https://www.insee.fr/fr/statistiques/8296880)
