@@ -12,14 +12,12 @@ I am currently working as an expert in industrial policy at the [French Treasury
 
 <!--- I received a BSc in mathematics and economics from Ecole Polytechnique in 2019, a MRes in Economics from IP Paris and a Statistician/Economist MSc degree from [ENSAE](https://www.ensae.fr/) in 2020. From some parallel life, I also hold a BA in Philosophy. --->
 
-
 You can find my CV [here](https://raphael-lafrogne-joussier.github.io/homepage/CV_academic.pdf) and my Google Scholar profile [here](https://scholar.google.com/citations?user=dt7xJSYAAAAJ&hl=en).
-
-
-
-# Contact
 
 **Email:** r dot lafrogne [at] gmail dot com
 
-**Website:** This website was built using [Hugo](https://gohugo.io/) and the Academimal theme from [Lei Yang](https://github.com/yangl1996/academimal). 
+
+
+
+<!--- **Website:** This website was built using [Hugo](https://gohugo.io/) and the Academimal theme from [Lei Yang](https://github.com/yangl1996/academimal). --->
 
