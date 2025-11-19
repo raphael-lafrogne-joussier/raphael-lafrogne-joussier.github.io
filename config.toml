@@ -11,10 +11,10 @@ baseURL = "https://raphael-lafrogne-joussier.github.io/"
 name = "Raphaël Lafrogne-Joussier"
 
 [params]
-title = "Economist at INSEE"
+title = "Economist at the French Treasury"
 institution = ""
 logo = "RLJ_half_pic.jpeg"
 Linkedin = "raphaël-lafrogne-joussier"
 Twitter = "Raph_LaJouss"
-Email = "raphael.lafrogne-joussier@insee.fr"
+Email = "r.lafrogne@gmail.com"
 
