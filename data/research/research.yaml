@@ -63,7 +63,7 @@ workingpapers:
     - url: "https://cepr.org/publications/dp18596"
       text: "[Old CEPR Discussion Paper 18596]"
     - url: "https://cae-eco.fr/transmission-des-couts-et-montee-de-l-inflation"
-      text: "CAE Focus"
+      text: "[CAE Focus]"
   abstract: >
       We study state-dependent cost pass-through using the recent surge in energy prices as a natural experiment. Our empirical analysis combines firm-level measures of exposure to energy cost shocks with firm- and product-level output prices from the French Producer Price Index (PPI). We find that pass-through increased from about 70% in the pre-crisis period to nearly full pass-through in 2021–2022, and is significantly higher among the most exposed firms. We develop a state-dependent pricing model in the spirit of Cavallo et al. (2023), augmented with heterogeneous exposure to energy shocks, which quantitatively rationalizes these patterns. The model shows how heterogeneity in firms’ exposure to common shocks shapes the aggregate response of prices to supply disturbances.
 - title: "Inventories, Diversification, and Trade Vulnerabilities"
