@@ -42,6 +42,7 @@ workingpapers:
     - text: "Hugo Camille"
     - url: "https://www.swannchelly.com/"
       text: "Swann Chelly"
+  year: "2026"
   links:
     - url: "https://www.insee.fr/fr/statistiques/8739557"
       text: "[4-pages summary in French]"  
@@ -55,6 +56,7 @@ workingpapers:
         text: "Julien Martin"
       - url: "https://www.isabellemejean.com/"
         text: "Isabelle Mejean"
+  year: "2026"
   links:
     - url: "https://cepr.org/publications/dp21156"
       text: "[New CEPR Discussion Paper 21156]"
@@ -65,6 +67,7 @@ workingpapers:
 - title: "Inventories, Diversification, and Trade Vulnerabilities"
   note: ""
   pdflink: "https://www.insee.fr/en/statistiques/8669390"
+  year: "2025"
   links:
     - url: "https://www.insee.fr/fr/statistiques/8668760"
       text: "[4-pages summary in French]"
@@ -76,6 +79,7 @@ workingpapers:
   links:
     - url: "https://www.dropbox.com/s/kxo4b1wsqtlnz2i/urban_crime_current_slides.pdf?dl=0"
       text: "[Slides]"
+  year: "2025"
   coauthors: 
     - url: "https://www.vincent-rollet.com/"
       text: "Vincent Rollet"
@@ -89,7 +93,7 @@ workinprogress:
     - url: "https://www.isabellemejean.com/"
       text: "Isabelle Mejean"
   abstract: >
-      This paper investigates how industrial specialization and production networks shape local business cycle fluctuations. Using detailed plant-level sales data from the French manufacturing sector (2011–2021), we first document significant heterogeneity in local business cycles. We show that this heterogeneity is driven by industrial specialization, which increases exposure to sector-specific shocks, and by input-output linkages, which propagate these shocks across regions and synchronize local fluctuations. We find that nearly 3\% of business cycle synchronization across commuting zones is attributable to input-output linkages. Next, we deepen our analysis of input-output linkages by leveraging firm-to-firm production data from two comprehensive supplier surveys in the French aerospace and automotive industries. Our findings indicate that 4.4\% and 7.6\% of shocks affecting downstream manufacturers are transmitted upstream to their suppliers. Moreover, we find that suppliers tend to cluster near downstream manufacturers, with those more exposed also being geographically closer. This implies that the propagation of shock through IO linkages will be spatially biased.  As a result, aggregate fluctuations driven by shocks in the aerospace and automotive industries are amplified by 18\% and 20\%, respectively, through production linkages.
+      We investigate how industrial specialization and production networks shape local business cycle fluctuations. Using detailed plant-level sales data from two major French manufacturing sectors over 2011–2019, matched with firm-level production linkages, we first document that: i) The spatial organization of production in France displays significant industrial clusters, including in the focal aerospace and car industries, ii) production linkages in these sectors are spatially concentrated, and iii) these local production networks generate comovements along the value chains that amplify local business cycles.  Using a structural model estimated from the micro-level data, we quantify the diffusion of demand shocks to the aerospace and car industries over space through input-output networks. Exogenous shocks to these sectors spillover to upstream industries, generating sizable local business cycles. 
 #- title: "Modeling Dependence in Trade: Asymptotic Results and Inference"
   #coauthors: 
     #- text: "Laurent Davezies"
