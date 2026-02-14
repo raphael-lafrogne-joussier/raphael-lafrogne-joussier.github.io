@@ -10,7 +10,7 @@ Insee Analyses n.116 *"La filière automobile manufacturière en France entre 20
 Insee Analyses n.114 *"Entre constitution de stocks et diversification des fournisseurs, quel choix pour les entreprises ?"* [[In French]](https://www.insee.fr/fr/statistiques/8296880)
 
 ### 2024
-Insee Analyses n.100 *"Entre 2018 et 2020, les entreprises relocalisent plutôt des activités peu qualifiées, et délocalisent des activités qualifiées"* [[In French]](https://www.insee.fr/fr/statistiques/8296880) (Press coverage: Les Échos)
+Insee Analyses n.100 *"Entre 2018 et 2020, les entreprises relocalisent plutôt des activités peu qualifiées, et délocalisent des activités qualifiées"* [[In French]](https://www.insee.fr/fr/statistiques/8296880) (Media coverage: [[Les Échos]](https://www.lesechos.fr/economie-france/conjoncture/productivite-travail-qualifie-quest-ce-qui-pousse-les-entreprises-a-delocaliser-2137260))
 
 Insee Analyses n.93 *"Les effets de la pénurie d’intrants chinois sur les entreprises françaises début 2020 : quels enseignements ?"* [[In French]](https://www.insee.fr/fr/statistiques/7745514)[[Abstract in English]](https://www.insee.fr/en/statistiques/7758385)
 
@@ -24,7 +24,7 @@ Focus du CAE 94/Document de travail de l'Insee 2023-13 *"Cost Pass-Through and t
 
 ### 2022
 
-Insee Analyses n.75 *"La flambée des prix de l’énergie : un effet sur l’inflation réduit de moitié par le « bouclier tarifaire »"* [[Article (in French)]](https://www.insee.fr/fr/statistiques/6524161) (Press coverage: Le Monde, Libération, Les Échos, La Croix, France TV, Radio France, AFP,...) 
+Insee Analyses n.75 *"La flambée des prix de l’énergie : un effet sur l’inflation réduit de moitié par le « bouclier tarifaire »"* [[Article (in French)]](https://www.insee.fr/fr/statistiques/6524161) (Media coverage: Le Monde, Libération, Les Échos, La Croix, France TV, Radio France, AFP,...) 
 
 Insee Analyses n.74 *"Un tiers de l’empreinte carbone de l’Union européenne est dû à ses importations"* [[Article in French]](https://www.insee.fr/fr/statistiques/6474294)[[Article in English]](https://www.insee.fr/en/statistiques/6478761)
 
