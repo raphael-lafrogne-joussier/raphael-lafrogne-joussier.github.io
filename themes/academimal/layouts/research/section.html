@@ -40,6 +40,9 @@
             {{ end }}
         </span>
     {{ end }}
+    {{ with year }}
+        <em>{{ . }}</em>
+    {{ end }}
     </h4>
 
     {{ with .note }}<span style="margin:5px 0px 5px 0px;"><em>{{ . }}</em></span>{{ end }}
