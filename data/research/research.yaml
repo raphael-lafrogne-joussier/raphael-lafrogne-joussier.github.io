@@ -28,7 +28,7 @@ publications:
     - url: "https://www.dropbox.com/s/h5ftnlapii6mrpt/LJMM_2022_CEPR.pdf?dl=0"
       text: "[CEPR Discussion Paper 16813]"
     - url: "https://voxeu.org/article/supply-chain-disruptions-and-mitigation-strategies"
-      text: "[VoxEU Summary]"
+      text: "[VoxEU]"
     - url: "https://www.insee.fr/fr/statistiques/7745514"
       text: "[4-pages summary in French]"
     - url: "https://players.brightcove.net/45228659001/default_default/index.html?videoId=6281672789001"
@@ -69,6 +69,8 @@ workingpapers:
   pdflink: "https://www.insee.fr/en/statistiques/8669390"
   year: "2025"
   links:
+    - url: "https://cepr.org/voxeu/columns/inventories-diversification-and-trade-vulnerabilities"
+      text: "[VoxEU]"
     - url: "https://www.insee.fr/fr/statistiques/8668760"
       text: "[4-pages summary in French]"
   abstract: >
