@@ -37,7 +37,7 @@
     {{ with .coauthors }}
         <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
-            {{ end -}}
+            {{- end -}}
         </span>
     {{- end -}}
     {{- with .year -}}
@@ -105,7 +105,7 @@
     {{ with .coauthors }}
         <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
-            {{ end -}}
+            {{- end -}}
         </span>
     {{- end -}}
     {{- if .book_edited -}}
@@ -166,7 +166,7 @@
     {{ with .coauthors }}
         <span style="margin:5px 0px 5px 0px; font-size: 16px;"> with
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
-            {{ end -}}
+            {{- end -}}
         </span>
     {{- end -}}
     {{- if .book_edited -}}
