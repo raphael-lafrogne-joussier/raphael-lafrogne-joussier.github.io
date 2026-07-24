@@ -39,10 +39,10 @@
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
             {{ end }}
         </span>
-    {{ end }}
-    {{ with .year }}
+    {{- end -}}
+    {{- with .year -}}
         , <em>{{ . }}</em>
-    {{ end }}
+    {{- end }}
     </h4>
 
     {{ with .note }}<span style="margin:5px 0px 5px 0px;"><em>{{ . }}</em></span>{{ end }}
@@ -107,13 +107,13 @@
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
             {{ end }}
         </span>
-    {{ end }}
-    {{ if .book_edited }}
-        <span style="margin:5px 0px 5px 0px; font-size: 14px;">, 
+    {{- end -}}
+    {{- if .book_edited -}}
+        <span style="margin:5px 0px 5px 0px; font-size: 14px;">,
             <em>{{ .book_edited }}</em></span>
-    {{ else }}
+    {{- else }}
         <span></span>
-    {{ end }}
+    {{- end }}
     </h4>
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
@@ -168,13 +168,13 @@
             {{ range $i, $e := . }}{{ if $i }} and {{ end}}<a href="{{ .url }}" target="blank">{{ $e.text }}</a>
             {{ end }}
         </span>
-    {{ end }}
-    {{ if .book_edited }}
-        <span style="margin:5px 0px 5px 0px; font-size: 14px;">, 
+    {{- end -}}
+    {{- if .book_edited -}}
+        <span style="margin:5px 0px 5px 0px; font-size: 14px;">,
             <em>{{ .book_edited }}</em></span>
-    {{ else }}
+    {{- else }}
         <span></span>
-    {{ end }}
+    {{- end }}
     </h4>
 
         {{ with .editors }}<p style="margin:5px 0px 5px 0px;">(Eds. {{ . }})</p>{{ end }}
